@@ -8,30 +8,137 @@
 </head>
 
 <body>
-<!-- :ここはコメントです　 -->
-    <h1>ニワトリ</h1>
-    <img src="pi.png" alt="King gnu" width="200px">
-    <a href="https://www.udemy.com/course/the-web-developer-bootcamp-2021-japan/learn/lecture/28281210#notes">ここはリンクです！</a>
-    <p><b>ニワトリ</b>（鶏、庭鳥、学名：Gallus gallus domesticus）は、キジ科に属する鳥類の1種で、代表的な家禽として世界中で飼育されている。</p>
-    <p>祖先種のヤケイとしては単元説と多元説がある。単元説は、東南アジアの密林や竹林に生息しているセキショクヤケイ（Gallus gallus）を祖先とする説である。</p>
-    <h2>名称</h2>
-    <p> ipsum dolor sit amet consectetur, adipisicing elit. Voluptas itaque quos quis pariatur labore dolores ad
-        tenetur! Corporis iure laboriosam repellat fugit? Possimus tempore pariatur ipsa ipsam fugit labore maxime.</p>
-    <h2>品種</h2>
-    <ul>
-        <li>軍系グループ</li>
+    <nav>
         <ul>
-            <li>多社も</li>
-            <li>古社も</li>
+            <li><a href="home">ホームへ</a></li>
+            <li><a href="home">ホームへ</a></li>
+            <li><a href="contact">コンタクトへ</a></li>
         </ul>
-        <li>地鶏グループ</li>
+    </nav>
+    <!-- :ここはコメントです　 -->
+    <main>
+        <h1>ニワトリ</h1>
+        <hr>
+        <img src="pi.png" alt="King gnu" width="200px">
+        <div><a
+                href="https://www.udemy.com/course/the-web-developer-bootcamp-2021-japan/learn/lecture/28281210#notes">ここはリンクです！</a>
+        </div>
+        <p><b>ニワトリ</b>（鶏、庭鳥、学名：Gallus gallus domesticus）は、キジ科に属する鳥類の1種で、代表的な家禽として世界中で飼育されている。</p>
+        <section>
+            <p>祖先種のヤケイとしては単元説と多元説<sup>(1)</sup>がある。単元説は、東南アジアの密林や竹林に生息しているセキショクヤケイ（Gallus gallus）を祖先とする<br>説である。</p>
+        </section>
+        <h2>名称</h2>
+        <p> ipsum dolor sit amet consectetur, adipisicing elit. Voluptas itaque quos quis pariatur labore dolores ad
+            tenetur! Corporis iure laboriosam repellat fugit? Possimus tempore pariatur ipsa ipsam fugit labore maxime.
+        </p>
+        <h2>品種</h2>
         <ul>
-            <li>土佐地鶏</li>
+            <li>軍系グループ</li>
+            <ul>
+                <li>多社も</li>
+                <li>古社も</li>
+            </ul>
+            <li>地鶏グループ</li>
+            <ul>
+                <li>土佐地鶏</li>
+            </ul>
+
+        </ul>
+        <h2>&lt;a&gt;</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Rooster_-_National_Museum_of_Nature_and_Science%2C_Tokyo_-_DSC07131.JPG/250px-Rooster_-_National_Museum_of_Nature_and_Science%2C_Tokyo_-_DSC07131.JPG"
+            alt="">
+        <h3>tableの練習</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Animal</th>
+                    <th>average mass[kg (lb)]</th>
+                    <th>maximum mass[kg (lb)]</th>
+                    <th>Flighted</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ostrich</td>
+                    <td>104 (230)</td>
+                    <td>156.8 (346)</td>
+                    <td>No</td>
+                </tr>
+
+                <tr>
+                    <td>somalited ostrich</td>
+                    <td>90 (200)</td>
+                    <td>130 (287)</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>southern cassowary</td>
+                    <td>45 (99)</td>
+                    <td>85 (190)</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>wild turky</td>
+                    <td>13.5 (29.8)</td>
+                    <td>39 (86)</td>
+                    <td>Yes</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>V2</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">Animal</th>
+                    <th colspan="2">Average Mass</th>
+                    <th rowspan="2">Flighted</th>
+                </tr>
+                <tr>
+
+                    <th>kg</th>
+                    <th>lb</th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>ostrich</td>
+                    <td>104</td>
+                    <td>230</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>somalited ostrich</td>
+                    <td>90</td>
+                    <td>200</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>southern cassowary</td>
+                    <td>45</td>
+                    <td>99</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>wild turky</td>
+                    <td>13.5</td>
+                    <td>29.8</td>
+                    <td>Yes</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>これは私の所有しているサイトです。</p>
+        <ul>
+            <li><a href="asd">コンタクト</a></li>
         </ul>
 
-    </ul>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Rooster_-_National_Museum_of_Nature_and_Science%2C_Tokyo_-_DSC07131.JPG/250px-Rooster_-_National_Museum_of_Nature_and_Science%2C_Tokyo_-_DSC07131.JPG" alt="">
-
+        <ul>
+            <li><a href="asd">ヘルプ</a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>
