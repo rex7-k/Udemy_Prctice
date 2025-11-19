@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Udemy_Prctice</title>
+    <link rel="stylesheet" href="Udemy.css">
 </head>
 
 <body>
@@ -33,7 +34,7 @@
             </div>
             <div>
                 <label for="number">好きな数</label>
-                <input id="number" type="number" name="number">
+                <input id="number" type="number" name="number" min="0" max="100" step="10">
             </div>
             <button type="submit">送信</button>
             <input type="submit" value="Submit!">
@@ -43,7 +44,42 @@
             <input type="text" name="search_query" placeholder="検索">
             <button>youtube検索</button>
         </form>
-
+        <form action="/birds">
+            <div>
+                <label for="agree">利用規約に同意</label>
+                <input type="checkbox" id="agree" name="agree_tos" checked>
+            </div>
+            <hr>
+            <div>
+                <label for="xs">xsサイズ</label>
+                <input type="radio" name="size" id="xs" value="xs" checked>
+            </div>
+            <div>
+                <label for="s">sサイズ</label>
+                <input type="radio" name="size" id="s" value="s">
+            </div>
+            <div>
+                <label for="m">mサイズ</label>
+                <input type="radio" name="size" id="m" value="m">
+            </div>
+            <hr>
+            <label for="meal">食事を選択</label>
+            <select name="meal" id="meal">
+                <option value="fish">焼き魚</option>
+                <option value="salada" selected>サラダ</option>
+                <option value="staek">ステーキ</option>
+            </select>
+            <hr>
+            <div>
+                <input type="range" id="cheese" min="1" max="10" name="cheese_level" value="2">
+                <label for="cheese">チーズの量</label>
+            </div>
+            <hr>
+            <div>
+                <label for="comments">その他コメント</label>
+                <textarea name="comment" id="comments" rows="5" cols="67" placeholder="コメントを入力してください"></textarea>
+            </div>
+            <button>送信</button>
         </form>
         <h1>ニワトリ</h1>
         <hr>
