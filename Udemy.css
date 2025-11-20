@@ -1,0 +1,26 @@
+/* color: テキストの色 background-color:背景色 text-align:テキストの位置 font-wegit:文字の太さ 
+line-height: 行の高さ text-decoration線をつける letter-spacing:文字同士の広さ font-size:文字の大きさ
+font-family:文字の種類 */
+h1 {
+    color: rgb(255, 100, 255);
+    background-color: blueviolet;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: #787575 underline wavy;
+    font-size: 75px;
+    font-family: arial, serif;
+}
+
+button {
+    color: aquamarine;
+    background-color: cyan;
+}
+
+p {
+    color: #ccc576;
+    line-height: 2;
+    letter-spacing: 10px;
+}
+a {
+    text-decoration: none;
+}
